@@ -1,11 +1,11 @@
-Algoritmo "PlicarDescontoDiversos"
-// Disciplina   : [Linguagem e Lógica de Programação]
+Algoritmo "AplicarDescontoDiversos"
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 23/03/2025
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    nome: caracter
    quantidade: inteiro
    preco1: real
@@ -13,14 +13,14 @@ Var
    totalF: real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    Escreval("")
    Escreval("")
    Escreval("Digite o nome do produto: ")
    Leia(nome)
    Escreval("Digite a quantidade de produtos: ")
    Leia(quantidade)
-   Escreval("Digite o preço de uma unidade do produto: ")
+   Escreval("Digite o preÃ§o de uma unidade do produto: ")
    Leia(preco1)
 
    total<- quantidade * preco1
@@ -39,6 +39,6 @@ Inicio
       fimse
    fimse
    
-   Escreval("O valor dos(as) ", nome, " é: R$", totalF:2:2)
+   Escreval("O valor dos(as) ", nome, " Ã©: R$", totalF:2:2)
 
 Fimalgoritmo
