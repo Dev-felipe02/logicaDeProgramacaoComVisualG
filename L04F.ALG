@@ -1,31 +1,34 @@
 Algoritmo "L04F"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 30/03/2025
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    soma: real
    media: real
    valor: real
    contador: real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
-   Escreval("")
-   Escreval("")
-   repita
-      Escreval("Digte um valor de numro possitivo: ")
-      Leia(valor)
-      se valor > -1 entao
-         contador<- contador + 1
-         soma<- soma + valor
-      fimse
-   ate valor < 0
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+   Escreval("Digite um valor positivo: ")
+   Leia(valor)
 
-   media<- soma / contador
-
-   Escreval("Média:", media, " Soma:", soma, " Valores lidos:", contador)
+   se valor < 0 entao
+      Escreval("Nenhum nÃºmero vÃ¡lido foi inserido.")
+   senao
+      Repita
+         contador <- contador + 1
+         soma <- soma + valor
+         Escreval("Digite um valor positivo: ")
+         Leia(valor)
+      ate valor < 0
+   fimse
+   se contador > 0 entao
+      media <- soma / contador
+      Escreval("MÃ©dia:", media, " Soma:", soma, " Valores lidos:", contador)
+   fimse
 
 Fimalgoritmo
