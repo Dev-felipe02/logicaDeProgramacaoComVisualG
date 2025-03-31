@@ -1,31 +1,29 @@
 Algoritmo "L04G"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 30/03/2025
 Var
-   // Seção de Declarações das variáveis
-   numero: vetor [1..3] de real
-   contador: vetor [1..2] de real
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
+   numero: real
+   contador: real
+   fatorial: real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
-   numero[3]<- 10
-   contador[2]<- 1
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+   numero<- 1
+
    repita
-      se numero[3] mod 2 <> 0 entao
-         numero[1]<- numero[3]
-         contador[1]<- numero[1]
-         repita
-            contador[1]<- contador[1] - 1
-            numero[1]<- numero[1] * contador[1]
-            numero[2]<- numero[1]
-         ate contador[1] < 2
-         Escreval(numero[2])
-      fimse
-      numero[3]<- numero[3] - 1
-      contador[2]<- contador[2] + 1
-   ate contador[2] >10
+      fatorial<- 1
+      contador<- numero
+      repita
+         fatorial<- fatorial * contador
+         contador<- contador - 1
+      ate contador < 2
+
+      Escreval("O fatorial do numero impar", numero," Ã©:", fatorial)
+      numero<- numero + 2
+   ate numero > 10
 
 Fimalgoritmo
