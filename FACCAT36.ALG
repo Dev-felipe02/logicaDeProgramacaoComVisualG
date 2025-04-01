@@ -1,11 +1,11 @@
 Algoritmo "HomemMaisVelho+MulherMaisNova"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 23/03/2025
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    idadeH01: inteiro
    IdadeH02: inteiro
    idadeM01: inteiro
@@ -18,7 +18,7 @@ Var
    soma02: inteiro
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    Escreval("Calcular idadde do Homem mais velho com a Mulher mais nova")
    Escreval("")
    Escreval("Digite a idade do primeiro homem: ")
@@ -54,7 +54,7 @@ Inicio
    soma01<- Hvelho + Mnova
    soma02<- Hnovo + Mvelha
 
-   Escreval("A soma da idade do Homem mais velho com a Mulher mais nova é: ", soma01)
-   Escreval("A soma da idade do Homem mais novo com a Mulher mais velha é: ", soma02)
+   Escreval("A soma da idade do Homem mais velho com a Mulher mais nova Ã©: ", soma01)
+   Escreval("A soma da idade do Homem mais novo com a Mulher mais velha Ã©: ", soma02)
 
 Fimalgoritmo
