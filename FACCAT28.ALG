@@ -1,19 +1,19 @@
 Algoritmo "CompararQualEoMaior"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 23/03/2025
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    valor01: real
    valor02: real
    valor03: real
    maior: real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
-   Escreval("Ver se valor é, Positivo, Negativo ou Zero")
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+   Escreval("Ver se valor Ã©, Positivo, Negativo ou Zero")
    Escreval("")
    Escreval("Digite o primeiro valor:")
    Leia(valor01)
@@ -27,10 +27,10 @@ Inicio
    maior<- valor02
    fimse
 
-   se valor03>maior então
+   se valor03>maior entÃ£o
    maior<- valor03
    fimse
    
-   Escreval("O maior valor é: ", maior)
+   Escreval("O maior valor Ã©: ", maior)
 
 Fimalgoritmo
