@@ -1,17 +1,17 @@
 Algoritmo "SalarioTotalExercicio24"
-// Disciplina   : [Linguagem e LÛgica de ProgramaÁ„o]
+// Disciplina   : [Linguagem e L√≥gica de Programa√ß√£o]
 // Professor   : Antonio Carlos Nicolodi
-// DescriÁ„o   : Aqui vocÍ descreve o que o programa faz! (funÁ„o)
+// Descri√ß√£o   : Aqui voc√™ descreve o que o programa faz! (fun√ß√£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 23/03/2025
 Var
-   // SeÁ„o de DeclaraÁıes das vari·veis
+   // Se√ß√£o de Declara√ß√µes das vari√°veis
    salarioF: real
    totalvendas: real
    salarioT: real
 
 Inicio
-   // SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc...
+   // Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc...
    Escreval("Calcular salario final de um vendedor: ")
    Escreval("")
    Escreval("Digite seu salario fixo")
@@ -19,7 +19,7 @@ Inicio
    Escreval("Digite o valor do total das vendas feitas: ")
    Leia(totalvendas)
 
-   se totalvendas> 1500 ent„o
+   se totalvendas> 1500 ent√£o
       salarioT<- (0.05 * (totalvendas - 1500)) + (0.03 * 1500) + salarioF
 
    senao
@@ -27,6 +27,6 @@ Inicio
 
    fimse
 
-   Escreval("Seu salario total È: R$", salarioT:2:2)
+   Escreval("Seu salario total √©: R$", salarioT:2:2)
 
 Fimalgoritmo
