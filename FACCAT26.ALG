@@ -1,18 +1,18 @@
 Algoritmo "quantidadeEmEstoque"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 23/03/2025
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    quantidadeA: real
    quantidadeMA: real
    quantidadeMI: real
    media: real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    Escreval("Calculara media de estoque de um produto")
    Escreval("")
    Escreval("Digite a quantidade atual do estoque do produto: ")
@@ -24,10 +24,10 @@ Inicio
    media<- (quantidadeMA + quantidadeMI) / 2
 
    se quantidadeA>= media entao
-      Escreval("A quantidade media de estoque do produto é de: ", media, ". Não Efetuar compra")
+      Escreval("A quantidade media de estoque do produto Ã© de: ", media, ". NÃ£o Efetuar compra")
 
    senao
-      Escreval("A quantidade media de estoque do produto é de: ", media, ", Efetuar compra")
+      Escreval("A quantidade media de estoque do produto Ã© de: ", media, ", Efetuar compra")
 
    fimse
 
