@@ -1,18 +1,18 @@
 Algoritmo "TimeVencedor"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 23/03/2025
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    time01: caracter
    time02: caracter
    gols01: inteiro
    gols02: inteiro
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    Escreval("Conferir qual time foi o vencedor")
    Escreval("")
    Escreval("Digite o nome do Primeiro time: ")
@@ -25,11 +25,11 @@ Inicio
    Leia(gols02)
 
    se gols01>gols02 entao
-      Escreval("O time vencedor é: ", time01)
+      Escreval("O time vencedor Ã©: ", time01)
 
    senao
       se gols01<gols02 entao
-         Escreval("O time vencedor é: ", time02)
+         Escreval("O time vencedor Ã©: ", time02)
 
       senao
          Escreval("Ouve um Empate")
