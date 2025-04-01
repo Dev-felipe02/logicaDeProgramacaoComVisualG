@@ -1,19 +1,19 @@
 Algoritmo "AcessarConta"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 23/03/2025
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    usuario: inteiro
    senha: inteiro
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
-   Escreval("Acessar perfil de usuário")
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+   Escreval("Acessar perfil de usuÃ¡rio")
    Escreval("")
-   Escreval("Digite o codigo de usuário: ")
+   Escreval("Digite o codigo de usuÃ¡rio: ")
    Leia(usuario)
 
    se usuario=1234 entao
@@ -21,7 +21,7 @@ Inicio
       Leia(senha)
 
    senao
-      Escreval("Usuário invalido! ou")
+      Escreval("UsuÃ¡rio invalido! ou")
 
    fimse
 
