@@ -1,19 +1,19 @@
 Algoritmo "CalculadoreReajusteSalarial"
-// Disciplina   : [Linguagem e LÛgica de ProgramaÁ„o]
+// Disciplina   : [Linguagem e L√≥gica de Programa√ß√£o]
 // Professor   : Jailson Obama
-// DescriÁ„o   : Escreva um algoritmo para ler o sal·rio mensal atual de um
-//funcion·rio e o percentual de reajuste.Calcular e escrever o valor do novo
-//sal·rio.
+// Descri√ß√£o   : Escreva um algoritmo para ler o sal√°rio mensal atual de um
+//funcion√°rio e o percentual de reajuste.Calcular e escrever o valor do novo
+//sal√°rio.
 // Autor(a)    : Felipe Negreiros
 // Data atual  : 18/03/2025
 Var
-// SeÁ„o de DeclaraÁıes das vari·veis 
+// Se√ß√£o de Declara√ß√µes das vari√°veis 
    salario: real
    reajuste: real
    valor: real
    
 Inicio
-// SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc... 
+// Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc... 
    Escreval("Calculadore de Reajuste Salarial")
    Escreval("")
    Escreval("Digite o valor de seu salario atual")
@@ -21,7 +21,7 @@ Inicio
    Escreval("Digite o valor do percentual do reajuste, seja positivo ou negativo")
    leia(reajuste)
    valor<-  (reajuste / 100 * salario) + salario
-   Escreval ("O valor de seu salario apÛs o reajuste È:", valor)
+   Escreval ("O valor de seu salario ap√≥s o reajuste √©:", valor)
    
 
 Fimalgoritmo
