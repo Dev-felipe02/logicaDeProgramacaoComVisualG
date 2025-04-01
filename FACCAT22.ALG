@@ -1,11 +1,11 @@
 Algoritmo "CalcularHoraExtra"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 21/03/2025
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    horasT : inteiro
    salarioH: real
    horasO: inteiro
@@ -13,7 +13,7 @@ Var
    
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    Escreval("Calcular Hora Extra")
    Escreval("")
    Escreval("Digite quantas horas devem ser trabalhadas por mes: ")
@@ -31,6 +31,6 @@ Inicio
    
    fimse
    
-   Escreval("O valor de seu salario final é de: R$", salarioF)
+   Escreval("O valor de seu salario final Ã© de: R$", salarioF)
 
 Fimalgoritmo
