@@ -1,17 +1,17 @@
 Algoritmo "PesoIdeal"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 21/03/2025
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    sexo: caractere
    altura: real
    peso: real
    nome: caractere
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    Escreval("Calcular peso ideal com base no sexo biologico e altura")
    Escreval("")
    Escreval("Digite seu sexo: ")
@@ -23,12 +23,12 @@ Inicio
 
    se (sexo = "m") ou (sexo = "M") entao
       peso<- (72.7 * altura) - 58
-      Escreval(nome, ", seu peso ideal é: ", peso, "Kg")
+      Escreval(nome, ", seu peso ideal Ã©: ", peso, "Kg")
 
    senao
       se (sexo = "f") ou (sexo = "F") entao
          peso<- (62.1 * altura) - 44.7
-         Escreval(nome, ", seu peso ideal é: ", peso, "Kg")
+         Escreval(nome, ", seu peso ideal Ã©: ", peso, "Kg")
 
       senao
          Escreval("Sexo invalido!, Digite (M/F)")
