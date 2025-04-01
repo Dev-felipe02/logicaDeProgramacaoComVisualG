@@ -1,18 +1,18 @@
 Algoritmo "Valor idade em dias"
-// Disciplina   : [Lógica de Programação em JavaScript]
+// Disciplina   : [LÃ³gica de ProgramaÃ§Ã£o em JavaScript]
 // Professor   : Jailson
-// Descrição   : Calculadora de idade em dias
+// DescriÃ§Ã£o   : Calculadora de idade em dias
 // Autor(a)    : Felipe Negreiros
 // Data atual  : 17/03/2025
 Var
-// Seção de Declarações das variáveis
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
 dia: real
 mes: real
 ano: real
 idade: real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    Escreva("Calculadora de idade em dias")
    Escreval("")
    Escreva ("Digite o dia do seu aniversario:")
@@ -28,6 +28,6 @@ Inicio
    mes<- mes * 30
    ano<- (2025 - ano) * 365
    idade<- dia + mes + ano
-   Escreva ("O valor da sua idade em dias é:", idade)
+   Escreva ("O valor da sua idade em dias Ã©:", idade)
 
 Fimalgoritmo
