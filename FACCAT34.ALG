@@ -1,18 +1,18 @@
 Algoritmo "ConferirValoresTabelaExercicio34"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 23/03/2025
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    X: real
    Y: real
    Z: real
    resposta: caracter
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    Escreva("Conferir valores da tabela exercicio34")
    Escreval("")
    Escreval("Digite o valor de X: ")
@@ -35,6 +35,6 @@ Inicio
       fimse
    fimse
 
-   Escreval("Z é igual á: ", Z, ", Resposta ", resposta)
+   Escreval("Z Ã© igual Ã¡: ", Z, ", Resposta ", resposta)
 
 Fimalgoritmo
