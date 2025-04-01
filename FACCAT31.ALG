@@ -1,11 +1,11 @@
 Algoritmo "VerificarSeEumTriangulo"
-// Disciplina   : [Linguagem e LÛgica de ProgramaÁ„o]
+// Disciplina   : [Linguagem e L√≥gica de Programa√ß√£o]
 // Professor   : Antonio Carlos Nicolodi
-// DescriÁ„o   : Aqui vocÍ descreve o que o programa faz! (funÁ„o)
+// Descri√ß√£o   : Aqui voc√™ descreve o que o programa faz! (fun√ß√£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 23/03/2025
 Var
-   // SeÁ„o de DeclaraÁıes das vari·veis
+   // Se√ß√£o de Declara√ß√µes das vari√°veis
    valor01: real
    valor02: real
    valor03: real
@@ -14,8 +14,8 @@ Var
    soma03: real
 
 Inicio
-   // SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc...
-   Escreval("Coferir se as medidas s„o ou n„o de um tri‚ngulo")
+   // Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc...
+   Escreval("Coferir se as medidas s√£o ou n√£o de um tri√¢ngulo")
    Escreval("")
    Escreval("Digite o valor da primeira medida de um dos lados: ")
    Leia(valor01)
@@ -28,18 +28,18 @@ Inicio
    soma03<- valor02 + valor03
 
    se valor01>soma03 entao
-      Escreval("N„o formam um tri‚ngulo")
+      Escreval("N√£o formam um tri√¢ngulo")
 
    senao
       se valor02>soma02 entao
-         Escreval("N„o formam um tri‚ngulo")
+         Escreval("N√£o formam um tri√¢ngulo")
 
       senao
          se valor03>soma01 entao
-            Escreval("N„o formam um tri‚ngulo")
+            Escreval("N√£o formam um tri√¢ngulo")
 
          senao
-            Escreval("Formam um tri‚ngulo")
+            Escreval("Formam um tri√¢ngulo")
 
          fimse
       fimse
