@@ -1,11 +1,11 @@
 Algoritmo "DireitoDeAposentadoria"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 24/03/2025
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    codigo: real
    anoN: inteiro
    anoE: inteiro
@@ -13,14 +13,14 @@ Var
    tempoT: inteiro
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    Escreval("Ver se trabalhador tem direito a aposentadoria")
    Escreval("")
    Escreval("Digite o codigo dentro da sua empresa: ")
    Leia(codigo)
    Escreval("Digite o seu anoa de nascimento: ")
    Leia(anoN)
-   Escreval("Digite o ano que você ingressou na empresa: ")
+   Escreval("Digite o ano que vocÃª ingressou na empresa: ")
    Leia(anoE)
 
    idade<- 2025 - anoN
@@ -38,7 +38,7 @@ Inicio
             Escreval("Requerer aposentadoria")
 
          senao
-            Escreval("Não requerer")
+            Escreval("NÃ£o requerer")
 
          fimse
       fimse
