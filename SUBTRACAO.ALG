@@ -1,17 +1,17 @@
-Algoritmo "Subtração"
-// Disciplina   : [Linguagem e Lógica de Programação]
+Algoritmo "SubtraÃ§Ã£o"
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 13/03/2025
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
    numero01: inteiro
    numero02: inteiro
    Subtracao: inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
    Escreval("Proagra que Subtrai 2 valores de numeros inteiros.")
    Escreval("")
    Escreva ("Digite o primeiro valor:")
@@ -19,6 +19,6 @@ Inicio
    Escreva ("Digite o segundo valor:")
    Leia (numero02)
    Subtracao<- numero01 - numero02
-   Escreva ("O valor da Subtracao é:", Subtracao)
+   Escreva ("O valor da Subtracao Ã©:", Subtracao)
 
 Fimalgoritmo
