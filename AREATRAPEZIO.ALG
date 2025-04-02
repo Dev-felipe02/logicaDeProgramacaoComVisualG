@@ -1,19 +1,19 @@
-Algoritmo "Calcular area de um Trapézio"
-// Disciplina   : [Linguagem e Lógica de Programação]
+Algoritmo "Calcular area de um TrapÃ©zio"
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 14/03/2025
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
  numero01: real
  numero02: real
  numero03: real
  Area: real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-   Escreval("Calculadora de Area de um Trapézio")
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
+   Escreval("Calculadora de Area de um TrapÃ©zio")
    Escreval("")
    Escreva ("Digite a base maior:")
    Leia (numero01)
@@ -22,7 +22,7 @@ Inicio
    Escreva ("Digite a Altura:")
    Leia (numero03)
    Area<- (numero01 + numero02) * numero03 / 2
-   Escreva ("O valor da Area é:", Area,"cm^2")
+   Escreva ("O valor da Area Ã©:", Area,"cm^2")
 
 
 Fimalgoritmo
