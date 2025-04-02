@@ -1,16 +1,16 @@
 Algoritmo "VerificarQualOtipoDeTriangulo"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 24/03/2025
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    a, b, c: real
    triangulo: caracter
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    Escreval("Verificar qual o tipo de triangulo")
    Escreval("")
    Escreval("Digite o valor do primeiro lado")
@@ -23,20 +23,20 @@ Inicio
    se (a < b+c) e (b < a+c) e (c < a+b) entao
 
       se (a = b) e (b = c) entao
-         triangulo<- "Triângulo Equilátero"
+         triangulo<- "TriÃ¢ngulo EquilÃ¡tero"
 
       senao
          se (a = b) ou (b = c) ou (a = c) entao
-            triangulo<- "Triângulo Isósceles"
+            triangulo<- "TriÃ¢ngulo IsÃ³sceles"
 
          senao
-            triangulo<- "Triângulo Escaleno"
+            triangulo<- "TriÃ¢ngulo Escaleno"
 
          fimse
       fimse
 
    senao
-      triangulo<- "Não é possivel formar um triângulo"
+      triangulo<- "NÃ£o Ã© possivel formar um triÃ¢ngulo"
 
    fimse
 
