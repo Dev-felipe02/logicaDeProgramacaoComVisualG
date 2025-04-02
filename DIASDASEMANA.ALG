@@ -1,16 +1,16 @@
 Algoritmo "DiasDaSemana"
-// Disciplina   : [Linguagem e Lógica de Programação no VisualG]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o no VisualG]
 // Professor   : Jailson Costa dos Santos
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Felipe Negreiros
 // Data atual  : 21/03/2025
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    n1: real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
-   Escreval("Escreva 1 dia para ver em qual dia é da semana")
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+   Escreval("Escreva 1 dia para ver em qual dia Ã© da semana")
    Escreval("")
    Escreval("Digite o Primeiro valor:")
    leia(n1)
@@ -22,7 +22,7 @@ Inicio
          Escreval ("Segunda")
       senao
          se n1 = 3 entao
-            Escreval ("Terça")
+            Escreval ("TerÃ§a")
          senao
             se n1 = 4 entao
                Escreval ("Quarta")
@@ -36,7 +36,7 @@ Inicio
                      se n1 = 7 entao
                         Escreval ("Sabado")
                      senao
-                        Escreval ("O numero digitado não corresponde a nenhum dia da semana")
+                        Escreval ("O numero digitado nÃ£o corresponde a nenhum dia da semana")
                      fimse
                   fimse
                fimse
