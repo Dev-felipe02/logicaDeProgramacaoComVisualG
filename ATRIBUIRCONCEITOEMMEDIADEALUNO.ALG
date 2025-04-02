@@ -1,11 +1,11 @@
 Algoritmo "AtribuirConceitoEmMediaDeAluno"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 23/03/2025
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    nota01: real
    nota02: real
    nota03: real
@@ -14,14 +14,14 @@ Var
    conceito: caracter
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
-   Escreval("Calcular média de aproveitamento de um(a) aulo(a)")
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+   Escreval("Calcular mÃ©dia de aproveitamento de um(a) aulo(a)")
    Escreval("")
-   Escreval("Digite a nota da primeira avaliação: ")
+   Escreval("Digite a nota da primeira avaliaÃ§Ã£o: ")
    Leia(nota01)
-   Escreval("Digite a nota da segunda avaliação: ")
+   Escreval("Digite a nota da segunda avaliaÃ§Ã£o: ")
    Leia(nota02)
-   Escreval("Digite a nota da terceira avalição: ")
+   Escreval("Digite a nota da terceira avaliÃ§Ã£o: ")
    Leia(nota03)
    Escreval("Digite a media das notas dos exercicios")
    Leia(mediaE)
